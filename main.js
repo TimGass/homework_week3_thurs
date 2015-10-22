@@ -4,8 +4,20 @@ function sum(num1, num2){
   return (num1 + num2);
 };
 
+function difference(num1, num2){
+  return (num1 - num2);
+};
+
+function product(num1, num2){
+  return (num1 * num2);
+};
+
+function quotient(num1, num2){
+  return (num1 / num2);
+};
+
 document.addEventListener("DOMContentLoaded", function() {
-  document.getElementById("calculateBtn").addEventListener("click", function(event){
+  document.getElementById("add").addEventListener("click", function(){
        if (!isNaN(document.getElementById("num_one").value)) {
          num1 = Number(document.getElementById("num_one").value);
      }
