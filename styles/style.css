@@ -1,0 +1,12 @@
+* {
+  display: block;
+  margin: auto;
+  text-align: center; }
+
+h3 {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  color: green; }
+
+span {
+  font-size: 30px; }
